@@ -1,0 +1,25 @@
+import = [
+	"~/.config/alacritty/themes/themes/gruvbox_material_hard_dark.toml"
+]
+
+[shell]
+program = "/bin/zsh"
+
+[window]
+opacity = 0.9
+
+[scrolling]
+history = 100000
+
+[font]
+normal = { family = "FiraCode Nerd Font Mono", style = "Bold" }
+
+[mouse]
+hide_when_typing = true
+
+[keyboard]
+bindings = [
+{ key = "V", mods = "Control", action = "ToggleViMode" },
+{ key = "N", mods = "Control", action = "CreateNewWindow" },
+{ key = "Q", mods = "Control", action = "Quit" },
+]
